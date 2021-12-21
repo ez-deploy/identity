@@ -33,8 +33,8 @@ func TestMain(m *testing.M) {
 		Schemes:  []string{"http"},
 	}
 	serviceClient = &Service{
-		identityClient:  client.NewHTTPClientWithConfig(nil, cfg).Public,
-		kratosPublicURL: "http://localhost:4433/sessions/whoami",
+		identityClient: client.NewHTTPClientWithConfig(nil, cfg).Public,
+		whoamiURL:      "http://localhost:4433/sessions/whoami",
 	}
 
 	m.Run()

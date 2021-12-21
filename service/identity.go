@@ -104,7 +104,7 @@ func newLoginResp(loginRes *public.CompleteSelfServiceLoginFlowWithPasswordMetho
 }
 
 func (s *Service) verifySessionToken(rawToken string) (*pb.VerifyResp, error) {
-	req, err := http.NewRequest("GET", s.kratosPublicURL, nil)
+	req, err := http.NewRequest("GET", s.whoamiURL, nil)
 	if err != nil {
 		return nil, err
 	}

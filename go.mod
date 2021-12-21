@@ -4,10 +4,13 @@ go 1.17
 
 require (
 	github.com/ez-deploy/protobuf v0.0.0-20211220141415-2bceef7c7cfd
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/ory/kratos-client-go v0.5.5-alpha.4
 	github.com/pkg/errors v0.9.1
 	github.com/thanhpk/randstr v1.0.4
 	github.com/wuhuizuo/sqlm v0.0.0-20210826032816-ecaad8462bc6
+	google.golang.org/grpc v1.43.0
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
 )
 
 require (
@@ -38,7 +41,6 @@ require (
 	golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 // indirect
 	golang.org/x/text v0.3.5 // indirect
 	google.golang.org/genproto v0.0.0-20200825200019-8632dd797987 // indirect
-	google.golang.org/grpc v1.43.0 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
