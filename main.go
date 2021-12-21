@@ -13,7 +13,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
-const configFileName = "identityCfg.yaml"
+const configFileName = "/etc/config/identityCfg.yaml"
 
 type configBody struct {
 	KratosPublicHostName string `yaml:"kratos_public_hostname,omitempty"`
