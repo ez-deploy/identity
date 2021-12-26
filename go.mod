@@ -3,7 +3,7 @@ module github.com/ez-deploy/identity
 go 1.17
 
 require (
-	github.com/ez-deploy/protobuf v0.0.0-20211220141415-2bceef7c7cfd
+	github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/ory/kratos-client-go v0.5.5-alpha.4
 	github.com/pkg/errors v0.9.1

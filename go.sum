@@ -49,8 +49,8 @@ github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1m
 github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad/go.mod h1:cXg6YxExXjJnVBQHBLXeUAgxn2UodCpnH306RInaBQk=
 github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021/go.mod h1:AFq3mo9L8Lqqiid3OhADV3RfLJnjiw63cSpi+fDTRC0=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
-github.com/ez-deploy/protobuf v0.0.0-20211220141415-2bceef7c7cfd h1:rJBsCVlT+2Ayc+0umBsRvslFS/ryYue0sWB3pfF8aG0=
-github.com/ez-deploy/protobuf v0.0.0-20211220141415-2bceef7c7cfd/go.mod h1:Y/JnyzZVSTcwnr7ME19es6eE9Wqp5UmcSK2xoU33gH4=
+github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255 h1:/ywtSy3f4Eg/zfHRcKImlwNldjg3F90GKs3EkKXcBM8=
+github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255/go.mod h1:Y/JnyzZVSTcwnr7ME19es6eE9Wqp5UmcSK2xoU33gH4=
 github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239/go.mod h1:Gdwt2ce0yfBxPvZrHkprdPPTTS3N5rwmLE8T22KBXlw=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/globalsign/mgo v0.0.0-20180905125535-1ca0a4f7cbcb/go.mod h1:xkRDCp4j0OGD1HRkm4kmhM+pmpv3AKq5SU7GMg4oO/Q=
