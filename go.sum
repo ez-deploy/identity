@@ -49,8 +49,8 @@ github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1m
 github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad/go.mod h1:cXg6YxExXjJnVBQHBLXeUAgxn2UodCpnH306RInaBQk=
 github.com/envoyproxy/go-control-plane v0.9.10-0.20210907150352-cf90f659a021/go.mod h1:AFq3mo9L8Lqqiid3OhADV3RfLJnjiw63cSpi+fDTRC0=
 github.com/envoyproxy/protoc-gen-validate v0.1.0/go.mod h1:iSmxcyjqTsJpI2R4NaDN7+kN2VEUnK/pcBlmesArF7c=
-github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255 h1:/ywtSy3f4Eg/zfHRcKImlwNldjg3F90GKs3EkKXcBM8=
-github.com/ez-deploy/protobuf v0.0.0-20211223162611-d14bf8f23255/go.mod h1:Y/JnyzZVSTcwnr7ME19es6eE9Wqp5UmcSK2xoU33gH4=
+github.com/ez-deploy/protobuf v0.0.0-20211225092149-7b9c7bfba13c h1:io5LqotFWTkz+WznzCKsafbRh5YM9tc0+XEPTJR2TX4=
+github.com/ez-deploy/protobuf v0.0.0-20211225092149-7b9c7bfba13c/go.mod h1:hevQqfOvNWCmQ8o06wUJohjAY8mEZuGz2erkOvkHiWA=
 github.com/fastly/go-utils v0.0.0-20180712184237-d95a45783239/go.mod h1:Gdwt2ce0yfBxPvZrHkprdPPTTS3N5rwmLE8T22KBXlw=
 github.com/ghodss/yaml v1.0.0/go.mod h1:4dBDuWmgqj2HViK6kFavaiC9ZROes6MMH2rRYeMEF04=
 github.com/globalsign/mgo v0.0.0-20180905125535-1ca0a4f7cbcb/go.mod h1:xkRDCp4j0OGD1HRkm4kmhM+pmpv3AKq5SU7GMg4oO/Q=
@@ -106,6 +106,7 @@ github.com/go-openapi/runtime v0.19.4/go.mod h1:X277bwSUBxVlCYR3r7xgZZGKVvBd/29g
 github.com/go-openapi/runtime v0.19.15/go.mod h1:dhGWCTKRXlAfGnQG0ONViOZpjfg0m2gUt9nTQPQZuoo=
 github.com/go-openapi/runtime v0.19.16/go.mod h1:5P9104EJgYcizotuXhEuUrzVc+j1RiSjahULvYmlv98=
 github.com/go-openapi/runtime v0.19.24/go.mod h1:Lm9YGCeecBnUUkFTxPC4s1+lwrkJ0pthx8YvyjCfkgk=
+github.com/go-openapi/runtime v0.19.26/go.mod h1:BvrQtn6iVb2QmiVXRsFAm6ZCAZBpbVKFfN6QWCp582M=
 github.com/go-openapi/runtime v0.19.27 h1:4zrQCJoP7rqNCUaApDv1MdPkaa5TuPfO05Lq5WLhX9I=
 github.com/go-openapi/runtime v0.19.27/go.mod h1:BvrQtn6iVb2QmiVXRsFAm6ZCAZBpbVKFfN6QWCp582M=
 github.com/go-openapi/spec v0.17.0/go.mod h1:XkF/MOi14NmjsfZ8VtAKf8pIlbZzyoTvZsdfssdxcBI=
@@ -269,6 +270,8 @@ github.com/oliveagle/jsonpath v0.0.0-20180606110733-2e52cf6e6852/go.mod h1:eqOVx
 github.com/opentracing/opentracing-go v1.1.0/go.mod h1:UkNAQd3GIcIGf0SeVgPpRdFStlNbqXla1AfSYxPUl2o=
 github.com/opentracing/opentracing-go v1.2.0 h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs=
 github.com/opentracing/opentracing-go v1.2.0/go.mod h1:GxEUsuufX4nBwe+T+Wl9TAgYrxe9dPLANfrWvHYVTgc=
+github.com/ory/kratos-client-go v0.5.5-alpha.2 h1:duk046x8rVo83kRe6RhqjY7QjbDcNZLeyGy3x0cm68Q=
+github.com/ory/kratos-client-go v0.5.5-alpha.2/go.mod h1:TvYZJ7iaNdzEek+MgQ2pJ26CEITTrlcbYze8UQV8Tp0=
 github.com/ory/kratos-client-go v0.5.5-alpha.4 h1:rqfPyrxFgw1aecUSO6PF8/BBmVW6IxqV+q/byohpMQ8=
 github.com/ory/kratos-client-go v0.5.5-alpha.4/go.mod h1:eV3n63f+D1X8+eUyj+VUuPotT9mop51g5Ych66snhHc=
 github.com/pborman/uuid v1.2.0/go.mod h1:X/NO0urCmaxf9VXbdlT7C2Yzkj2IKimNn4k+gtPdI/k=

@@ -20,7 +20,7 @@ func (s *Service) Register(ctx context.Context, req *pb.RegisterReq) (*model.Com
 		return model.NewCommonRespWithErrorMessage("email is required"), nil
 	}
 
-	initParams := &public.InitializeSelfServiceRegistrationViaAPIFlowParams{Context: ctx}
+	initParams := public.NewInitializeSelfServiceRegistrationViaAPIFlowParams().WithContext(ctx)
 
 	flow, err := s.identityClient.InitializeSelfServiceRegistrationViaAPIFlow(initParams)
 	if err != nil {

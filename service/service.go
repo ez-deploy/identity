@@ -12,7 +12,7 @@ import (
 
 // Service impl protobuf.identity.Ops .
 type Service struct {
-	pb.UnimplementedOpsServer
+	pb.UnimplementedIdentityOpsServer
 
 	identityClient public.ClientService
 	whoamiURL      string
@@ -28,7 +28,7 @@ func New(kratosPublicHostname string, apiTokenTableDBDSN string) (*Service, erro
 	}
 	kratosPublicClient := client.NewHTTPClientWithConfig(nil, kratosCfg).Public
 
-	whoamiURL := fmt.Sprint("http://", kratosPublicClient, "/sessions/whoami")
+	whoamiURL := fmt.Sprint("http://", kratosPublicHostname, "/sessions/whoami")
 
 	database := &sqlm.Database{
 		Driver: "mysql",
